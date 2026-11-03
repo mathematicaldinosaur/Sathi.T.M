@@ -25,9 +25,9 @@
         <!-- PHOTO: later, replace this whole <svg>...</svg> with:
              <img src="photo.jpg" alt="Sathi Trikkadeeri"> -->
         <svg viewBox="0 0 200 200" role="img" aria-label="Portrait placeholder">
-          <circle cx="100" cy="100" r="100" fill="#f1e4ea"/>
+          <circle cx="100" cy="100" r="100" fill="#e3ebf5"/>
           <path d="M45 95 C40 20, 160 20, 155 95 L160 175 C130 185, 70 185, 40 175 Z" fill="#2b1d1a"/>
-          <path d="M35 200 C40 165, 70 155, 100 155 C130 155, 160 165, 165 200 Z" fill="#7a2e4f"/>
+          <path d="M35 200 C40 165, 70 155, 100 155 C130 155, 160 165, 165 200 Z" fill="#1f4e8c"/>
           <rect x="88" y="128" width="24" height="30" rx="10" fill="#b5764f"/>
           <ellipse cx="100" cy="98" rx="38" ry="44" fill="#c98a5f"/>
           <path d="M60 92 C58 55, 95 45, 120 55 C135 60, 142 75, 140 92 C128 75, 110 68, 95 66 C80 70, 68 80, 60 92 Z" fill="#2b1d1a"/>
@@ -157,7 +157,7 @@
       const W = canvas.width, H = canvas.height;
       const img = ctx.createImageData(W, H);
       const cr = -0.123, ci = 0.745, maxIt = 250, scale = 0.0055;
-      const bg = [250, 248, 245], edge = [122, 46, 79], inside = [58, 22, 40];
+      const bg = [250, 248, 245], edge = [31, 78, 140], inside = [16, 36, 72];
       for (let py = 0; py < H; py++) {
         for (let px = 0; px < W; px++) {
           let x = (px - W / 2) * scale, y = (py - H / 2) * scale, i = 0;
