@@ -179,3 +179,14 @@ footer {
     gap: 0;
   }
 }
+/* ---------- Custom colors ---------- */
+.pubs .pub-title {
+  color: #14325c;              /* preprint titles: deep navy */
+}
+.pubs .pub-title:hover {
+  color: #1f4e8c;              /* main blue on hover */
+}
+
+.birthday {
+  background: linear-gradient(90deg, #d9467a, #f08a4b);  /* banner: pink to orange */
+}
