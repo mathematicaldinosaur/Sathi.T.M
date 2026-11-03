@@ -186,4 +186,4 @@ footer {
 .pubs .pub-title:hover {
   color: #1f4e8c;              /* main blue on hover */
 }
-
+.birthday { background: #1f4e8c !important; }
