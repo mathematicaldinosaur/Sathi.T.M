@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathi Trikkadeeri</title>
+  <meta name="description" content="Sathi Trikkadeeri, PhD student in mathematics at IISER Thiruvananthapuram, working in complex dynamics and ergodic theory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <!-- ===== BIRTHDAY BANNER: delete from here ... ===== -->
+  <div class="birthday" id="birthday">
+    🎂 Happy Birthday, Sathi! This little corner of the internet is all yours. ❤️
+    <button onclick="document.getElementById('birthday').remove()" aria-label="Close">×</button>
+  </div>
+  <!-- ===== ... to here after her birthday ===== -->
+
+  <main>
+    <header class="intro">
+      <div class="avatar">
+        <!-- PHOTO: later, replace this whole <svg>...</svg> with:
+             <img src="photo.jpg" alt="Sathi Trikkadeeri"> -->
+        <svg viewBox="0 0 200 200" role="img" aria-label="Portrait placeholder">
+          <circle cx="100" cy="100" r="100" fill="#f1e4ea"/>
+          <path d="M45 95 C40 20, 160 20, 155 95 L160 175 C130 185, 70 185, 40 175 Z" fill="#2b1d1a"/>
+          <path d="M35 200 C40 165, 70 155, 100 155 C130 155, 160 165, 165 200 Z" fill="#7a2e4f"/>
+          <rect x="88" y="128" width="24" height="30" rx="10" fill="#b5764f"/>
+          <ellipse cx="100" cy="98" rx="38" ry="44" fill="#c98a5f"/>
+          <path d="M60 92 C58 55, 95 45, 120 55 C135 60, 142 75, 140 92 C128 75, 110 68, 95 66 C80 70, 68 80, 60 92 Z" fill="#2b1d1a"/>
+          <path d="M79 89 Q86 85 93 89" stroke="#2b1d1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M107 89 Q114 85 121 89" stroke="#2b1d1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="86" cy="100" rx="4" ry="5" fill="#2b1d1a"/>
+          <ellipse cx="114" cy="100" rx="4" ry="5" fill="#2b1d1a"/>
+          <circle cx="100" cy="82" r="2.5" fill="#a3253f"/>
+          <circle cx="78" cy="113" r="6" fill="#e0927a" opacity="0.5"/>
+          <circle cx="122" cy="113" r="6" fill="#e0927a" opacity="0.5"/>
+          <path d="M89 120 Q100 130 111 120" stroke="#6b2a2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="62" cy="112" r="3" fill="#d4a24c"/>
+          <circle cx="138" cy="112" r="3" fill="#d4a24c"/>
+        </svg>
+      </div>
+      <div>
+        <h1>Sathi Trikkadeeri</h1>
+        <p class="role">
+          Integrated PhD student<br>
+          School of Mathematics<br>
+          IISER Thiruvananthapuram
+        </p>
+        <p class="links">
+          <a class="email-link" href="#">Email</a>
+          <a href="https://arxiv.org/search/?query=Trikkadeeri&searchtype=author" target="_blank" rel="noopener">arXiv</a>
+          <a href="https://orcid.org/0009-0000-1444-4604" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://www.linkedin.com/in/sathi-t-m-iisertvm" target="_blank" rel="noopener">LinkedIn</a>
+          <!-- To add a CV link: upload cv.pdf to the repo, then remove the comment marks around the next line -->
+          <!-- <a href="cv.pdf" target="_blank">CV</a> -->
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am an Integrated PhD student in mathematics at the Indian Institute of Science
+        Education and Research, Thiruvananthapuram, advised by Dr. Shrihari Sridharan.
+        My research is in <strong>complex dynamics</strong> and <strong>ergodic theory</strong>,
+        with a focus on holomorphic correspondences, the multi-valued analogues of
+        holomorphic maps. I am also interested in thermodynamic formalism and complex geometry.
+      </p>
+      <figure>
+        <canvas id="julia" width="560" height="440" aria-label="Picture of the Douady rabbit Julia set"></canvas>
+        <figcaption>The Douady rabbit: the Julia set of z ↦ z² + c with c ≈ −0.123 + 0.745i.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Preprints</h2>
+      <ul class="plain pubs">
+        <li>
+          <a class="pub-title" href="https://arxiv.org/abs/2611.00993" target="_blank" rel="noopener">A note on the product of holomorphic correspondences</a>
+          <div class="pub-meta">arXiv:2611.00993 (2026)</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://arxiv.org/abs/2609.29439" target="_blank" rel="noopener">On induced systems and ergodicity for holomorphic correspondences</a>
+          <div class="pub-meta">arXiv:2609.29439 (2026)</div>
+        </li>
+        <li>
+          <a class="pub-title" href="https://arxiv.org/abs/2604.00042" target="_blank" rel="noopener">A view towards mixing in holomorphic correspondences</a>
+          <div class="pub-meta">arXiv:2604.00042 (2026)</div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teaching</h2>
+      <ul class="plain cv-list">
+        <li><span class="when">2026</span><span>Teaching assistant, <em>Multivariable Analysis</em></span></li>
+        <li><span class="when">2026</span><span>Teaching assistant, <em>Mathematical Tools</em></span></li>
+        <li><span class="when">2025</span><span>Teaching assistant, <em>Introduction to Probability</em></span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul class="plain cv-list">
+        <li><span class="when">2023–present</span><span>Integrated PhD in Mathematics, IISER Thiruvananthapuram</span></li>
+        <li><span class="when">2020–2023</span><span>B.Sc. in Mathematics, Vimala College (Autonomous), Thrissur</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Programmes &amp; Workshops</h2>
+      <ul class="plain cv-list">
+        <li><span class="when">2026</span><span>IWM Research Group programme</span></li>
+        <li><span class="when">2024–2026</span><span>The Frontier Symposium in Mathematics, IISER Thiruvananthapuram</span></li>
+        <li><span class="when">2024</span><span>Summer internship, National Institute of Technology Calicut</span></li>
+        <li><span class="when">2021</span><span>Summer School for Women in Mathematics and Statistics, ICTS</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
+      <ul class="plain cv-list">
+        <li><span class="when">2023</span><span>College topper in Mathematics, Vimala College</span></li>
+        <li><span class="when">2021</span><span>Central Sector Scholarship for undergraduate students</span></li>
+        <li><span class="when">2016</span><span>National Means-cum-Merit Scholarship</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <span id="email-text"></span><br>
+        School of Mathematics, IISER Thiruvananthapuram<br>
+        Vithura, Thiruvananthapuram, Kerala, India
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Sathi Trikkadeeri · Last updated November 2026
+    </footer>
+  </main>
+
+  <script>
+    // Email is assembled here so spam bots can't easily read it from the page
+    const user = "sathitm23", domain = "iisertvm.ac.in";
+    document.querySelectorAll(".email-link").forEach(a => a.href = "mailto:" + user + "@" + domain);
+    document.getElementById("email-text").textContent = user + " [at] " + domain.replace(/\./g, " [dot] ");
+
+    // Draw the Douady rabbit Julia set
+    (function () {
+      const canvas = document.getElementById("julia");
+      const ctx = canvas.getContext("2d");
+      const W = canvas.width, H = canvas.height;
+      const img = ctx.createImageData(W, H);
+      const cr = -0.123, ci = 0.745, maxIt = 250, scale = 0.0055;
+      const bg = [250, 248, 245], edge = [122, 46, 79], inside = [58, 22, 40];
+      for (let py = 0; py < H; py++) {
+        for (let px = 0; px < W; px++) {
+          let x = (px - W / 2) * scale, y = (py - H / 2) * scale, i = 0;
+          while (x * x + y * y < 4 && i < maxIt) {
+            const t = x * x - y * y + cr;
+            y = 2 * x * y + ci;
+            x = t;
+            i++;
+          }
+          const k = (py * W + px) * 4;
+          let c;
+          if (i === maxIt) {
+            c = inside;
+          } else {
+            const s = Math.min(1, Math.sqrt(i / 50));
+            c = bg.map((v, j) => v + (edge[j] - v) * s);
+          }
+          img.data[k] = c[0]; img.data[k + 1] = c[1]; img.data[k + 2] = c[2]; img.data[k + 3] = 255;
+        }
+      }
+      ctx.putImageData(img, 0, 0);
+    })();
+  </script>
+</body>
+</html>
